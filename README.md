@@ -1,4 +1,4 @@
-#GSgetINFO
+# GSgetINFO
 
 **Through the mirror of Google Scholar, using keywords to search for literature of limited years, the title, abstract, doi and pmid of the literature are finally returned**
 
