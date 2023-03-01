@@ -39,12 +39,12 @@ pip install beautifulsoup4
 
 |||
 |-|-|
-|-h,--help|show this help message and exit|
-|-s,--start|start year|
-|-e,--end|end year|
-|-o,--outdir|Result storage directory|
-|-k,--key|keywords|
-|-p,--page|Start page (you can get literature information from the specific page number returned by Google Academic, which starts from the first page by default)|
+|-h|show this help message and exit|
+|-s|start year|
+|-e|end year|
+|-o|Result storage directory|
+|-k|keywords|
+|-p|Start page (you can get literature information from the specific page number returned by Google Academic, which starts from the first page by default)|
 
 ## Example
 
