@@ -2,7 +2,6 @@
 
 import pandas as pd
 from bs4 import BeautifulSoup
-from urllib3.util.retry import Retry
 from colorama import Fore, Style, Back
 from fake_useragent import UserAgent
 from subprocess import call
