@@ -1,8 +1,8 @@
+#GSgetINFO
+
 **Through the mirror of Google Scholar, using keywords to search for literature of limited years, the title, abstract, doi and pmid of the literature are finally returned**
 
 # Table of content
-
----
 
 - Installation and Requirement
 
@@ -15,8 +15,6 @@
 - Licences
 
 # Installation and Requirement
-
----
 
 ## Install
 
@@ -36,8 +34,6 @@ pip install beautifulsoup4
 ```
 
 # Example and Usage
-
----
 
 ## Usage
 
@@ -61,8 +57,6 @@ python GSgetINFO.py -s 2022 -e 2022 -o ~/res_outdir -k "eqtl varients"
 
 # Result file
 
----
-
 The final result file named key_word_google.csv will be obtained (key_word is the keyword entered by the user)
 
 |Title|Abstract|DOI|PMID|
@@ -71,13 +65,9 @@ The final result file named key_word_google.csv will be obtained (key_word is th
 
 # Maintainers and Contributing
 
----
-
 - GSgetINFO-tools is developed and maintained by Xinran Xu (xinranxu0930@gmail.com).
 
 # Licences
-
----
 
 - Released under MIT license
 
