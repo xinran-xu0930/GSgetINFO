@@ -148,11 +148,11 @@ def xqtl_info(t_df):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-s','--start', type=str,help='起始年份')
-    parser.add_argument('-e','--end', type=str,help='终止年份')
-    parser.add_argument('-o','--outdir', type=str,help='输出目录')
-    parser.add_argument('-k','--key', type=str,help='文献关键字')
-    parser.add_argument('-p','--page', type=int,default=0,required=False,help='从自定义起始页码处获取文献信息，默认从第一页开始')
+    parser.add_argument('-s','--start', type=str,help='start year')
+    parser.add_argument('-e','--end', type=str,help='end year')
+    parser.add_argument('-o','--outdir', type=str,help='Result output directory')
+    parser.add_argument('-k','--key', type=str,help='key word')
+    parser.add_argument('-p','--page', type=int,default=0,required=False,help='Get the literature information from the user-defined starting page number, starting from the first page by default')
     args = parser.parse_args()
 
     ssl._create_default_https_context = ssl._create_unverified_context
